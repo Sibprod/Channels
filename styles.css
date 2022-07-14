@@ -6,7 +6,7 @@ h2 {
   }
 p {text-align:center;}
 .grille {
-  max-width: 1300px;
+  max-width: 200px;
   width: 80%;
   height: auto;
   margin: 30px auto;
@@ -19,6 +19,6 @@ p {text-align:center;}
 .grid-item {
   width: auto;
   height: auto;
-  background: #555;
+  background: auto;
   justify-content: center;
 }
