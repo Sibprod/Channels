@@ -1,10 +1,19 @@
 h2 {
-    color: black; text-align:center; text
+    color: black; text-align:center; font-size: 40px;font-family: Verdana, Geneva, Tahoma, sans-serif;margin: 50px 0;
   }
 p {text-align:center;}
-.gallery {
-  display : grid;
-  grid-template-columns: repeat (10, 1fr);
-  grid-template-rows: repeat (10, 5vw);
-  grid-gap:15px;
+.grille {
+  max-width: 1300px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap: 10px;
+}
+.grid-item {
+  width: 300px;
+  height: 200px;
+  background: #555
 }
