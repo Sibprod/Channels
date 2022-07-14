@@ -2,3 +2,9 @@ h2 {
     color: black; text-align:center; text
   }
 p {text-align:center;}
+.gallery {
+  display : grid;
+  grid-template-columns: repeat (10, 1fr);
+  grid-template-rows: repeat (10, 5vw);
+  grid-gap:15px;
+}
